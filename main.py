@@ -1,10 +1,8 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
 @app.route('/', methods=["GET"])
-
-
 
 def hello_world():
     prefix_google = """
@@ -13,4 +11,8 @@ def hello_world():
 window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
 gtag('config', 'UA-250912185-1'); </script>
 """
-    return prefix_google + "Hello World"
+    print("Hello Word")
+    return render_template("logs.html")
+
+
+
