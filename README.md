@@ -13,10 +13,12 @@ You can see my website here : **https://sf4h7q.deta.dev/**
 
 ## Requirements to run the application 
 
-flask 
+flask
+
 requests
 
 ## Main command : 
 
 **deta login**
+
 **deta deploy**
