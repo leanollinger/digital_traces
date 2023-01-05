@@ -10,10 +10,19 @@ You can see my website here : **https://sf4h7q.deta.dev/**
 - See your logs : add **/textbox** to url
 - See cookies : add **/cookie** to url 
 - Go to Google Analytics : add **/cookieganalytics** to url. You will need to login to google to access it. 
+- See the number of visitor of the website : add **/visitor** to url.
+- See the trend between cat and dog : add **/trend** to url. 
+
+You will also see a notebook that contains the timer log part. 
 
 ## Requirements to run the application 
 
-flask,  requests
+flask 
+requests 
+google-api-python-client  
+oauth2client  
+python-dotenv  
+pytrends
 
 ## Main command : 
 
